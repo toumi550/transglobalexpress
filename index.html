@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EURL Trans Global Express - Transport & Logistique en Algérie</title>
+    <meta name="description" content="EURL Trans Global Express - Spécialiste du transport, logistique, fret et entreposage en Algérie. Solutions professionnelles et fiables.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Loader 3D -->
+    <div id="loader" class="loader">
+        <div class="loader-container">
+            <div class="truck-loader">
+                <div class="truck-body"></div>
+                <div class="truck-wheel wheel-1"></div>
+                <div class="truck-wheel wheel-2"></div>
+            </div>
+            <div class="loading-text">Chargement...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.png" alt="Trans Global Express" class="logo-image">
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#apropos" class="nav-link">À Propos</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#galerie" class="nav-link">Galerie</a></li>
+                <li><a href="#avis" class="nav-link">Avis</a></li>
+                <li><a href="#devis" class="nav-link">Devis</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-background slide-1" id="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <!-- Contrôles du carrousel -->
+        <div class="hero-carousel-controls">
+            <button class="carousel-btn prev" id="hero-prev" aria-label="Diapositive précédente">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="carousel-indicators" id="carousel-indicators">
+                <span class="indicator active" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+                <span class="indicator" data-slide="3"></span>
+                <span class="indicator" data-slide="4"></span>
+                <span class="indicator" data-slide="5"></span>
+                <span class="indicator" data-slide="6"></span>
+                <span class="indicator" data-slide="7"></span>
+            </div>
+            <button class="carousel-btn next" id="hero-next" aria-label="Diapositive suivante">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Transport &</span>
+                    <span class="title-line">Logistique</span>
+                    <span class="title-highlight">Professionnels</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Votre partenaire de confiance pour tous vos besoins en transport, 
+                    fret et entreposage à travers l'Algérie
+                </p>
+                <div class="hero-buttons">
+                    <a href="#devis" class="btn btn-primary">
+                        <span>Demander un Devis</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#services" class="btn btn-secondary">
+                        <span>Nos Services</span>
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- À Propos Section -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">À Propos</span>
+                <h2 class="section-title">Excellence en Transport depuis 2010</h2>
+                <p class="section-subtitle">
+                    Une expertise reconnue au service de vos besoins logistiques
+                </p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-cards-grid">
+                        <div class="about-card fade-in-up" data-delay="100">
+                            <div class="card-icon">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <h3>Notre Mission</h3>
+                            <p>Fournir des solutions de transport et de logistique innovantes, 
+                            fiables et adaptées aux besoins spécifiques de chaque client en Algérie.</p>
+                        </div>
+                        
+                        <div class="about-card fade-in-up" data-delay="200">
+                            <div class="card-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <h3>Notre Vision</h3>
+                            <p>Devenir le leader incontournable du transport et de la logistique en Algérie, 
+                            reconnu pour notre excellence et notre innovation.</p>
+                        </div>
+                        
+                        <div class="about-card fade-in-up" data-delay="300">
+                            <div class="card-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h3>Nos Valeurs</h3>
+                            <p>Fiabilité, professionnalisme, innovation et respect de l'environnement 
+                            guident chacune de nos actions au quotidien.</p>
+                        </div>
+                        
+                        <div class="about-card fade-in-up" data-delay="400">
+                            <div class="card-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <h3>Notre Engagement</h3>
+                            <p>Garantir la satisfaction client à 100% avec des délais respectés 
+                            et une sécurité maximale de vos marchandises.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Timeline de l'entreprise -->
+                    <div class="company-timeline fade-in-up" data-delay="500">
+                        <h3 class="timeline-title">Notre Histoire</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-year">2010</div>
+                                <div class="timeline-content">
+                                    <h4>Création de l'entreprise</h4>
+                                    <p>Lancement avec 3 véhicules et une équipe de 5 personnes</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2015</div>
+                                <div class="timeline-content">
+                                    <h4>Expansion régionale</h4>
+                                    <p>Ouverture de 3 nouveaux entrepôts et extension de la flotte</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2020</div>
+                                <div class="timeline-content">
+                                    <h4>Digitalisation</h4>
+                                    <p>Mise en place du système de suivi en temps réel</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-year">2024</div>
+                                <div class="timeline-content">
+                                    <h4>Leader du marché</h4>
+                                    <p>Plus de 500 clients et 50 véhicules à travers l'Algérie</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item fade-in-up" data-delay="600">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="stat-number" data-count="500">0</div>
+                            <div class="stat-label">Clients Satisfaits</div>
+                        </div>
+                        <div class="stat-item fade-in-up" data-delay="700">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="stat-number" data-count="15">0</div>
+                            <div class="stat-label">Années d'Expérience</div>
+                        </div>
+                        <div class="stat-item fade-in-up" data-delay="800">
+                            <div class="stat-icon">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <div class="stat-number" data-count="50">0</div>
+                            <div class="stat-label">Véhicules</div>
+                        </div>
+                        <div class="stat-item fade-in-up" data-delay="900">
+                            <div class="stat-icon">
+                                <i class="fas fa-warehouse"></i>
+                            </div>
+                            <div class="stat-number" data-count="5">0</div>
+                            <div class="stat-label">Entrepôts</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="about-image-container">
+                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Transport professionnel" class="about-image">
+                        <div class="image-overlay">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Services</span>
+                <h2 class="section-title">Nos Solutions Logistiques</h2>
+                <p class="section-subtitle">
+                    Des services complets pour répondre à tous vos besoins
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Transport Routier</h3>
+                    <p>Transport de marchandises sur tout le territoire algérien avec notre flotte moderne et sécurisée.</p>
+                    <ul class="service-features">
+                        <li>Livraison express</li>
+                        <li>Suivi en temps réel</li>
+                        <li>Assurance complète</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <h3>Entreposage</h3>
+                    <p>Solutions de stockage sécurisées avec gestion informatisée des stocks et préparation de commandes.</p>
+                    <ul class="service-features">
+                        <li>Stockage sécurisé</li>
+                        <li>Gestion des stocks</li>
+                        <li>Préparation commandes</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <h3>Fret Aérien</h3>
+                    <p>Transport aérien rapide pour vos envois urgents vers l'international avec suivi complet.</p>
+                    <ul class="service-features">
+                        <li>Livraison rapide</li>
+                        <li>International</li>
+                        <li>Suivi complet</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-ship"></i>
+                    </div>
+                    <h3>Fret Maritime</h3>
+                    <p>Solutions économiques pour vos expéditions maritimes avec gestion complète des formalités.</p>
+                    <ul class="service-features">
+                        <li>Solution économique</li>
+                        <li>Gros volumes</li>
+                        <li>Formalités incluses</li>
+                    </ul>
+                    <div class="service-hover-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie Section -->
+    <section id="galerie" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Galerie</span>
+                <h2 class="section-title">Notre Flotte & Installations</h2>
+                <p class="section-subtitle">
+                    Découvrez nos équipements modernes et nos installations de pointe
+                </p>
+            </div>
+            <!-- Filtres de galerie -->
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-th"></i>
+                    Tout Voir
+                </button>
+                <button class="filter-btn" data-filter="trucks">
+                    <i class="fas fa-truck"></i>
+                    Véhicules
+                </button>
+                <button class="filter-btn" data-filter="warehouses">
+                    <i class="fas fa-warehouse"></i>
+                    Entrepôts
+                </button>
+                <button class="filter-btn" data-filter="logistics">
+                    <i class="fas fa-boxes"></i>
+                    Logistique
+                </button>
+                <button class="filter-btn" data-filter="projects">
+                    <i class="fas fa-project-diagram"></i>
+                    Projets
+                </button>
+            </div>
+            
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Véhicules -->                
+                <div class="gallery-item trucks" data-category="trucks">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Camion de livraison" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Livraison Express</h3>
+                        <p>Véhicules adaptés à tous types de marchandises</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item trucks" data-category="trucks">
+                    <img src="https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Semi-remorque" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Transport Longue Distance</h3>
+                        <p>Semi-remorques pour gros volumes</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item trucks" data-category="trucks">
+                    <img src="images/vehicule.jpeg" alt="Véhicule de transport" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Véhicule de Transport</h3>
+                        <p>Flotte moderne et fiable</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item trucks" data-category="trucks">
+                    <img src="images/vehicule2.jpeg" alt="Camion utilitaire" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Camion Utilitaire</h3>
+                        <p>Polyvalent pour tous besoins</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item trucks" data-category="trucks">
+                    <img src="images/vehicule3.jpeg" alt="Véhicule spécialisé" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Véhicule Spécialisé</h3>
+                        <p>Équipement adapté aux besoins</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item trucks" data-category="trucks">
+                    <img src="images/vehicule4.jpeg" alt="Poids lourd" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Poids Lourd</h3>
+                        <p>Transport de charges importantes</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item trucks" data-category="trucks">
+                    <img src="images/vehicule5.jpeg" alt="Camion de livraison urbaine" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Livraison Urbaine</h3>
+                        <p>Optimisé pour la ville</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item trucks" data-category="trucks">
+                    <img src="images/vehicule6.jpeg" alt="Véhicule professionnel" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Véhicule Professionnel</h3>
+                        <p>Performance et efficacité</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item warehouses" data-category="warehouses">
+                    <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Zone de stockage" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Zone de Stockage</h3>
+                        <p>Rayonnages haute capacité</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Logistique -->
+                <div class="gallery-item logistics" data-category="logistics">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Centre logistique" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Centre Logistique</h3>
+                        <p>Hub de distribution automatisé</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item logistics" data-category="logistics">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Préparation commandes" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Préparation Commandes</h3>
+                        <p>Système de picking optimisé</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item logistics" data-category="logistics">
+                    <img src="images/logistique.jpeg" alt="Opérations logistiques" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Opérations Logistiques</h3>
+                        <p>Gestion optimisée des flux</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item logistics" data-category="logistics">
+                    <img src="images/logistique1.jpeg" alt="Centre de tri" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Centre de Tri</h3>
+                        <p>Tri automatisé des colis</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item logistics" data-category="logistics">
+                    <img src="images/logistique2.jpeg" alt="Stockage moderne" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Stockage Moderne</h3>
+                        <p>Solutions de stockage avancées</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item logistics" data-category="logistics">
+                    <img src="images/logistique3.jpeg" alt="Plateforme logistique" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Plateforme Logistique</h3>
+                        <p>Hub de distribution central</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projets -->
+                <div class="gallery-item projects" data-category="projects">
+                    <img src="https://images.unsplash.com/photo-1605745341112-85968b19335b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Port maritime" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Projet Port d'Alger</h3>
+                        <p>Transport de conteneurs maritimes</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item projects" data-category="projects">
+                    <img src="https://images.unsplash.com/photo-1519003722824-194d4455a60c?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Projet industriel" class="gallery-image">
+                    <div class="gallery-overlay">
+                        <h3>Projet Industriel</h3>
+                        <p>Livraison équipements lourds</p>
+                        <div class="gallery-icon">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avis Clients Section -->
+    <section id="avis" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Témoignages</span>
+                <h2 class="section-title">Ce que disent nos clients</h2>
+                <p class="section-subtitle">
+                    La satisfaction de nos clients est notre priorité absolue
+                </p>
+            </div>
+            <!-- Statistiques de satisfaction -->
+            <div class="satisfaction-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-text">% Satisfaction</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-number" data-count="4.9">0</div>
+                    <div class="stat-text">Note Moyenne</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="stat-number" data-count="250">0</div>
+                    <div class="stat-text">Avis Clients</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                    <div class="stat-number" data-count="85">0</div>
+                    <div class="stat-text">% Clients Fidèles</div>
+                </div>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-track" id="testimonial-track">
+                    <!-- Témoignage 1 -->
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Service exceptionnel ! Trans Global Express a géré notre transport avec un professionnalisme remarquable. Livraison à temps et marchandises en parfait état. Je recommande vivement !"</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Ahmed Benali" class="author-image">
+                                <div class="author-info">
+                                    <h4>Ahmed Benali</h4>
+                                    <span>Directeur Commercial, TechCorp Algérie</span>
+                                    <div class="company-logo">
+                                        <i class="fas fa-building"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Témoignage 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Une équipe formidable ! Ils ont su s'adapter à nos contraintes et nous proposer des solutions sur mesure. Leur réactivité est impressionnante et les délais toujours respectés."</p>
+                            <div class="testimonial-author">
+                                <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSIjZjNmNGY2Ii8+Cjx0ZXh0IHg9IjUwIiB5PSI1NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0iIzZiNzI4MCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE0Ij5GYXRpbWE8L3RleHQ+Cjwvc3ZnPg==" alt="Fatima Zahra" class="author-image">
+                                <div class="author-info">
+                                    <h4>Fatima Zahra Amrani</h4>
+                                    <span>Responsable Logistique, AlgeriaFood</span>
+                                    <div class="company-logo">
+                                        <i class="fas fa-utensils"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Témoignage 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Partenaire de confiance depuis 3 ans. Leur professionnalisme fait la différence. Excellent rapport qualité-prix et service client irréprochable. Nous ne changeons plus !"</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Karim Messaoudi" class="author-image">
+                                <div class="author-info">
+                                    <h4>Karim Messaoudi</h4>
+                                    <span>PDG, Messaoudi Industries</span>
+                                    <div class="company-logo">
+                                        <i class="fas fa-industry"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Témoignage 4 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Efficacité et ponctualité au rendez-vous ! Leur système de suivi en temps réel nous permet de rassurer nos clients. Une collaboration qui dure depuis 5 ans."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Youcef Brahimi" class="author-image">
+                                <div class="author-info">
+                                    <h4>Youcef Brahimi</h4>
+                                    <span>Directeur Export, Condor Electronics</span>
+                                    <div class="company-logo">
+                                        <i class="fas fa-laptop"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Témoignage 5 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Solutions logistiques innovantes et équipe très professionnelle. Ils ont optimisé notre chaîne d'approvisionnement et réduit nos coûts de 20%. Remarquable !"</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Amina Khelifi" class="author-image">
+                                <div class="author-info">
+                                    <h4>Amina Khelifi</h4>
+                                    <span>Responsable Supply Chain, Pharmaceutique Saidal</span>
+                                    <div class="company-logo">
+                                        <i class="fas fa-pills"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev" id="prev-testimonial" aria-label="Témoignage précédent">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots" id="testimonial-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                        <span class="dot" data-slide="3"></span>
+                        <span class="dot" data-slide="4"></span>
+                    </div>
+                    <button class="testimonial-btn next" id="next-testimonial" aria-label="Témoignage suivant">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <!-- Indicateur d'auto-play -->
+                <div class="testimonial-autoplay" id="testimonial-autoplay">
+                    <div class="autoplay-progress"></div>
+                    <span class="autoplay-text">Auto</span>
+                </div>
+            </div>
+
+            <!-- Section d'ajout d'avis -->
+            <div class="add-review-section">
+                <h3>Partagez votre expérience</h3>
+                <p>Vous avez utilisé nos services ? Laissez-nous votre avis !</p>
+                <button class="btn btn-secondary add-review-btn">
+                    <i class="fas fa-star"></i>
+                    Laisser un Avis
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Devis Section -->
+    <section id="devis" class="quote">
+        <div class="container">
+            <div class="quote-content">
+                <div class="quote-info">
+                    <div class="section-header">
+                        <span class="section-tag">Devis Gratuit</span>
+                        <h2 class="section-title">Obtenez votre devis personnalisé</h2>
+                        <p class="section-subtitle">
+                            Remplissez ce formulaire et recevez une réponse sous 24h
+                        </p>
+                    </div>
+                    <div class="quote-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Réponse Rapide</h4>
+                                <p>Devis sous 24h maximum</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-calculator"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Tarifs Compétitifs</h4>
+                                <p>Les meilleurs prix du marché</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Sans Engagement</h4>
+                                <p>Devis gratuit et sans obligation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="quote-form-container">
+                    <!-- Progress Bar -->
+                    <div class="form-progress">
+                        <div class="progress-steps">
+                            <div class="step active" data-step="1">
+                                <div class="step-number">1</div>
+                                <div class="step-label">Service</div>
+                            </div>
+                            <div class="step" data-step="2">
+                                <div class="step-number">2</div>
+                                <div class="step-label">Détails</div>
+                            </div>
+                            <div class="step" data-step="3">
+                                <div class="step-number">3</div>
+                                <div class="step-label">Contact</div>
+                            </div>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progress-fill"></div>
+                        </div>
+                    </div>
+
+                    <!-- Multi-Step Form -->
+                    <form class="multi-step-form" id="multi-step-form">
+                        <!-- Étape 1: Sélection du Service -->
+                        <div class="form-step active" data-step="1">
+                            <div class="step-header">
+                                <h3>Quel service vous intéresse ?</h3>
+                                <p>Sélectionnez le type de service dont vous avez besoin</p>
+                            </div>
+                            
+                            <div class="service-options">
+                                <div class="service-option" data-service="transport-routier" data-price="50">
+                                    <div class="service-icon">
+                                        <i class="fas fa-truck"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h4>Transport Routier</h4>
+                                        <p>Livraison de marchandises par route</p>
+                                        <span class="service-price">À partir de 50 DA/km</span>
+                                    </div>
+                                    <div class="service-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                </div>
+
+                                <div class="service-option" data-service="entreposage" data-price="200">
+                                    <div class="service-icon">
+                                        <i class="fas fa-warehouse"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h4>Entreposage</h4>
+                                        <p>Stockage sécurisé de vos marchandises</p>
+                                        <span class="service-price">À partir de 200 DA/m²/mois</span>
+                                    </div>
+                                    <div class="service-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                </div>
+
+                                <div class="service-option" data-service="fret-aerien" data-price="500">
+                                    <div class="service-icon">
+                                        <i class="fas fa-plane"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h4>Fret Aérien</h4>
+                                        <p>Transport rapide par voie aérienne</p>
+                                        <span class="service-price">À partir de 500 DA/kg</span>
+                                    </div>
+                                    <div class="service-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                </div>
+
+                                <div class="service-option" data-service="fret-maritime" data-price="100">
+                                    <div class="service-icon">
+                                        <i class="fas fa-ship"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h4>Fret Maritime</h4>
+                                        <p>Transport économique par mer</p>
+                                        <span class="service-price">À partir de 100 DA/kg</span>
+                                    </div>
+                                    <div class="service-check">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Étape 2: Détails du Transport -->
+                        <div class="form-step" data-step="2">
+                            <div class="step-header">
+                                <h3>Détails de votre demande</h3>
+                                <p>Précisez les informations sur votre transport</p>
+                            </div>
+
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="origine">Ville d'origine *</label>
+                                    <input type="text" id="origine" name="origine" required>
+                                    <div class="input-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="destination">Ville de destination *</label>
+                                    <input type="text" id="destination" name="destination" required>
+                                    <div class="input-icon">
+                                        <i class="fas fa-flag-checkered"></i>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="poids">Poids approximatif</label>
+                                    <select id="poids" name="poids">
+                                        <option value="">Sélectionnez le poids</option>
+                                        <option value="0-100">0 - 100 kg</option>
+                                        <option value="100-500">100 - 500 kg</option>
+                                        <option value="500-1000">500 kg - 1 tonne</option>
+                                        <option value="1000-5000">1 - 5 tonnes</option>
+                                        <option value="5000+">Plus de 5 tonnes</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="urgence">Urgence</label>
+                                    <select id="urgence" name="urgence">
+                                        <option value="standard">Standard (3-5 jours)</option>
+                                        <option value="express">Express (1-2 jours)</option>
+                                        <option value="urgent">Urgent (même jour)</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group full-width">
+                                    <label for="marchandise">Type de marchandise</label>
+                                    <input type="text" id="marchandise" name="marchandise" placeholder="Ex: Électronique, Alimentaire, Textile...">
+                                </div>
+
+                                <div class="form-group full-width">
+                                    <label for="details">Informations complémentaires</label>
+                                    <textarea id="details" name="details" rows="3" placeholder="Dimensions, instructions spéciales, contraintes..."></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Calculateur de Prix -->
+                            <div class="price-calculator">
+                                <div class="calculator-header">
+                                    <h4>Estimation de Prix</h4>
+                                    <div class="calculator-toggle">
+                                        <i class="fas fa-calculator"></i>
+                                    </div>
+                                </div>
+                                <div class="price-breakdown">
+                                    <div class="price-item">
+                                        <span>Service de base:</span>
+                                        <span id="base-price">0 DA</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span>Distance:</span>
+                                        <span id="distance-price">0 DA</span>
+                                    </div>
+                                    <div class="price-item">
+                                        <span>Urgence:</span>
+                                        <span id="urgency-price">0 DA</span>
+                                    </div>
+                                    <div class="price-total">
+                                        <span>Total estimé:</span>
+                                        <span id="total-price">0 DA</span>
+                                    </div>
+                                </div>
+                                <div class="price-note">
+                                    <i class="fas fa-info-circle"></i>
+                                    <span>Prix indicatif - Devis final après étude détaillée</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Étape 3: Informations de Contact -->
+                        <div class="form-step" data-step="3">
+                            <div class="step-header">
+                                <h3>Vos informations de contact</h3>
+                                <p>Pour finaliser votre demande de devis</p>
+                            </div>
+
+                            <div class="form-grid">
+                                <div class="form-group">
+                                    <label for="nom">Nom complet *</label>
+                                    <input type="text" id="nom" name="nom" required>
+                                    <div class="input-icon">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="entreprise">Entreprise</label>
+                                    <input type="text" id="entreprise" name="entreprise">
+                                    <div class="input-icon">
+                                        <i class="fas fa-building"></i>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email *</label>
+                                    <input type="email" id="email" name="email" required>
+                                    <div class="input-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="telephone">Téléphone *</label>
+                                    <input type="tel" id="telephone" name="telephone" required>
+                                    <div class="input-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                </div>
+
+                                <div class="form-group full-width">
+                                    <label for="contact-preference">Préférence de contact</label>
+                                    <div class="radio-group">
+                                        <label class="radio-option">
+                                            <input type="radio" name="contact-preference" value="email" checked>
+                                            <span class="radio-custom"></span>
+                                            <span class="radio-label">Email</span>
+                                        </label>
+                                        <label class="radio-option">
+                                            <input type="radio" name="contact-preference" value="telephone">
+                                            <span class="radio-custom"></span>
+                                            <span class="radio-label">Téléphone</span>
+                                        </label>
+                                        <label class="radio-option">
+                                            <input type="radio" name="contact-preference" value="whatsapp">
+                                            <span class="radio-custom"></span>
+                                            <span class="radio-label">WhatsApp</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Récapitulatif -->
+                            <div class="quote-summary">
+                                <h4>Récapitulatif de votre demande</h4>
+                                <div class="summary-content" id="quote-summary">
+                                    <!-- Contenu généré dynamiquement -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Navigation Buttons -->
+                        <div class="form-navigation">
+                            <button type="button" class="btn btn-secondary prev-btn btn-hidden" id="prev-btn">
+                                <i class="fas fa-chevron-left"></i>
+                                Précédent
+                            </button>
+                            <button type="button" class="btn btn-primary next-btn" id="next-btn">
+                                Suivant
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                            <button type="submit" class="btn btn-primary submit-btn btn-hidden" id="submit-btn">
+                                <i class="fas fa-paper-plane"></i>
+                                Envoyer la Demande
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contact</span>
+                <h2 class="section-title">Contactez-nous</h2>
+                <p class="section-subtitle">
+                    Notre équipe est à votre disposition pour répondre à vos questions
+                </p>
+            </div>
+            <div class="contact-content">
+                <!-- Informations de contact -->
+                <div class="contact-info">
+                    <div class="contact-card fade-in-up" data-delay="100">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Adresse Principale</h4>
+                            <p>Zone Industrielle Rouiba<br>16012 Alger, Algérie</p>
+                            <div class="contact-action">
+                                <button class="contact-btn" onclick="copyToClipboard('Zone Industrielle Rouiba, 16012 Alger, Algérie')">
+                                    <i class="fas fa-copy"></i>
+                                    Copier l'adresse
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-card fade-in-up" data-delay="200">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Téléphone</h4>
+                            <p>
+                                <a href="tel:+213550968092">+213 550 96 80 92</a>
+                            </p>
+                            <div class="contact-action">
+                                <button class="contact-btn" onclick="window.open('tel:+213550968092')">
+                                    <i class="fas fa-phone-alt"></i>
+                                    Appeler maintenant
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-card fade-in-up" data-delay="300">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>
+                                <a href="mailto:contact@transglobalexpress.dz">contact@transglobalexpress.dz</a><br>
+                                <a href="mailto:devis@transglobalexpress.dz">devis@transglobalexpress.dz</a>
+                            </p>
+                            <div class="contact-action">
+                                <button class="contact-btn" onclick="window.open('mailto:contact@transglobalexpress.dz')">
+                                    <i class="fas fa-envelope-open"></i>
+                                    Envoyer un email
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-card fade-in-up" data-delay="400">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>WhatsApp Business</h4>
+                            <p>
+                                <a href="https://wa.me/213550968092">+213 550 96 80 92</a><br>
+                                <span class="status-indicator online">En ligne</span>
+                            </p>
+                            <div class="contact-action">
+                                <button class="contact-btn whatsapp-btn" onclick="window.open('https://wa.me/213550968092?text=Bonjour, je souhaite obtenir des informations sur vos services de transport.')">
+                                    <i class="fab fa-whatsapp"></i>
+                                    Chatter sur WhatsApp
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulaire de contact et informations -->
+                <div class="contact-form-section">
+                    <!-- Horaires d'ouverture -->
+                    <div class="opening-hours fade-in-up" data-delay="500">
+                        <h3>Horaires d'Ouverture</h3>
+                        <div class="hours-grid">
+                            <div class="hour-item">
+                                <span class="day">Lundi - Vendredi</span>
+                                <span class="time">08h00 - 18h00</span>
+                                <span class="status-badge open">Ouvert</span>
+                            </div>
+                            <div class="hour-item">
+                                <span class="day">Samedi</span>
+                                <span class="time">08h00 - 13h00</span>
+                                <span class="status-badge open">Ouvert</span>
+                            </div>
+                            <div class="hour-item">
+                                <span class="day">Dimanche</span>
+                                <span class="time">Fermé</span>
+                                <span class="status-badge closed">Fermé</span>
+                            </div>
+                        </div>
+                        <div class="current-status">
+                            <div class="status-indicator online"></div>
+                            <span>Actuellement ouvert - Fermeture à 18h00</span>
+                        </div>
+                    </div>
+
+                    <!-- Formulaire de contact rapide -->
+                    <div class="quick-contact-form fade-in-up" data-delay="600">
+                        <h3>Contact Rapide</h3>
+                        <p>Une question urgente ? Contactez-nous directement !</p>
+                        
+                        <form class="contact-form" id="quick-contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <input type="text" name="name" placeholder="Votre nom" required>
+                                    <div class="input-icon">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" name="phone" placeholder="Téléphone" required>
+                                    <div class="input-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select name="subject" required aria-label="Sujet de votre message">
+                                    <option value="">Sujet de votre message</option>
+                                    <option value="devis">Demande de devis</option>
+                                    <option value="info">Informations générales</option>
+                                    <option value="suivi">Suivi de commande</option>
+                                    <option value="reclamation">Réclamation</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" rows="4" placeholder="Votre message..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary contact-submit">
+                                <i class="fas fa-paper-plane"></i>
+                                Envoyer le Message
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Réseaux sociaux -->
+                    <div class="social-section fade-in-up" data-delay="700">
+                        <h3>Suivez-nous</h3>
+                        <p>Restez connectés pour nos dernières actualités</p>
+                        
+                        <div class="social-grid">
+                            <a href="#" class="social-card facebook">
+                                <div class="social-icon">
+                                    <i class="fab fa-facebook-f"></i>
+                                </div>
+                                <div class="social-info">
+                                    <h4>Facebook</h4>
+                                    <p>2.5K abonnés</p>
+                                </div>
+                                <div class="social-arrow">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </div>
+                            </a>
+
+                            <a href="#" class="social-card linkedin">
+                                <div class="social-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </div>
+                                <div class="social-info">
+                                    <h4>LinkedIn</h4>
+                                    <p>1.2K connexions</p>
+                                </div>
+                                <div class="social-arrow">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </div>
+                            </a>
+
+                            <a href="#" class="social-card instagram">
+                                <div class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                                <div class="social-info">
+                                    <h4>Instagram</h4>
+                                    <p>800 abonnés</p>
+                                </div>
+                                <div class="social-arrow">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </div>
+                            </a>
+
+                            <a href="#" class="social-card youtube">
+                                <div class="social-icon">
+                                    <i class="fab fa-youtube"></i>
+                                </div>
+                                <div class="social-info">
+                                    <h4>YouTube</h4>
+                                    <p>500 abonnés</p>
+                                </div>
+                                <div class="social-arrow">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Informations supplémentaires -->
+                    <div class="additional-info fade-in-up" data-delay="800">
+                        <div class="info-grid">
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-shipping-fast"></i>
+                                </div>
+                                <h4>Livraison Express</h4>
+                                <p>Service 24h/24 pour vos urgences</p>
+                            </div>
+                            
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-headset"></i>
+                                </div>
+                                <h4>Support Client</h4>
+                                <p>Équipe dédiée à votre service</p>
+                            </div>
+                            
+                            <div class="info-card">
+                                <div class="info-icon">
+                                    <i class="fas fa-map-marked-alt"></i>
+                                </div>
+                                <h4>Couverture Nationale</h4>
+                                <p>Présents dans toute l'Algérie</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-css footer-logo-css">
+                            <div class="logo-truck">
+                                <div class="truck-body"></div>
+                                <div class="truck-cabin"></div>
+                                <div class="truck-wheel wheel-1"></div>
+                                <div class="truck-wheel wheel-2"></div>
+                            </div>
+                        </div>
+                        <span class="footer-logo-text">Trans Global Express</span>
+                    </div>
+                    <p class="footer-description">
+                        Votre partenaire de confiance pour tous vos besoins en transport, 
+                        logistique et entreposage en Algérie.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Suivez-nous sur Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Suivez-nous sur LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Suivez-nous sur Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Suivez-nous sur Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Transport Routier</a></li>
+                        <li><a href="#services">Entreposage</a></li>
+                        <li><a href="#services">Fret Aérien</a></li>
+                        <li><a href="#services">Fret Maritime</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Entreprise</h4>
+                    <ul class="footer-links">
+                        <li><a href="#apropos">À Propos</a></li>
+                        <li><a href="#galerie">Galerie</a></li>
+                        <li><a href="#avis">Témoignages</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Zone Industrielle Rouiba, Alger</p>
+                        <p><i class="fas fa-phone"></i> +213 550 96 80 92</p>
+                        <p><i class="fas fa-envelope"></i> contact@transglobalexpress.dz</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 EURL Trans Global Express. Tous droits réservés.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Mentions Légales</a>
+                        <a href="#">Politique de Confidentialité</a>
+                        <a href="#">CGV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Retour en haut de la page">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/image-loader.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/hero-carousel-clean.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/testimonials.js"></script>
+    <script src="js/multi-step-form.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
