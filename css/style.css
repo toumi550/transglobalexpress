@@ -259,8 +259,8 @@ body {
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    transition: all 1.5s ease-in-out;
+    transition: opacity 0.8s ease-in-out;
+    will-change: opacity;
 }
 
 /* Images du carrousel logistique */
@@ -430,6 +430,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     z-index: 3;
+    will-change: transform;
 }
 
 .scroll-arrow {
@@ -440,6 +441,9 @@ body {
     border-left: none;
     transform: rotate(45deg);
     animation: scrollBounce 2s ease-in-out infinite;
+    will-change: transform;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
 }
 
 /* ===== ABOUT SECTION ===== */
@@ -1746,20 +1750,26 @@ body {
     transform: scale(1.2);
 }
 
-/* Animation pour le changement d'image */
-.hero-background.changing {
-    opacity: 0.7;
-    transform: scale(1.05);
+/* Animations modernes pour le changement d'image */
+.hero-background {
+    transform-origin: center center;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+    will-change: transform, opacity;
 }
 
-
+/* Les animations sont définies dans animations.css */
 
 /* Responsive pour les contrôles */
 @media (max-width: 768px) {
     .hero-carousel-controls {
         bottom: 20px;
         gap: 15px;
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
     }
     
     .carousel-btn {
@@ -1771,7 +1781,9 @@ body {
     .carousel-indicators {
         gap: 8px;
         order: -1;
-        margin-bottom: 15px;
+        width: 100%;
+        margin-bottom: 10px;
+        justify-content: center;
     }
     
     .indicator {

@@ -90,23 +90,23 @@ class HeroCarousel {
     updateSlide() {
         this.isTransitioning = true;
         
-        // Ajouter effet de transition
-        this.heroBackground.classList.add('changing');
+        // Appliquer uniquement l'effet de zoom
+        this.heroBackground.classList.add('changing', 'zoom-effect');
         
         setTimeout(() => {
             // Changer la classe de l'image
             this.heroBackground.className = `hero-background slide-${this.currentSlide}`;
             
-            // Mettre à jour les indicateurs
+            // Mettre à jour les indicateurs avec animation
             this.indicators.forEach((indicator, index) => {
                 indicator.classList.toggle('active', index + 1 === this.currentSlide);
             });
             
             setTimeout(() => {
-                this.heroBackground.classList.remove('changing');
+                this.heroBackground.classList.remove('changing', 'zoom-effect');
                 this.isTransitioning = false;
-            }, 300);
-        }, 200);
+            }, 600);
+        }, 150);
     }
     
     startAutoPlay() {
@@ -164,6 +164,9 @@ class HeroEffects {
     }
     
     addParallaxEffect() {
+        // Désactivé pour éviter les conflits avec l'animation du carrousel
+        // L'effet parallax sur le hero-background causait des saccades pendant les transitions
+        /*
         window.addEventListener('scroll', () => {
             const scrolled = window.pageYOffset;
             const heroBackground = document.querySelector('.hero-background');
@@ -173,6 +176,7 @@ class HeroEffects {
                 heroBackground.style.transform = `translateY(${speed}px)`;
             }
         });
+        */
     }
     
     addMouseMoveEffect() {
