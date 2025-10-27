@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://transglobalexpress-dz.com/sitemap.xml
+Sitemap: https://www.transglobalexpress-dz.com/sitemap.xml
 
 # Disallow certain file types
 Disallow: /*.css$
