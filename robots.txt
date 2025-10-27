@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://transglobalexpress-dz.com/sitemap.xml
+
+# Disallow certain file types
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /favicon.ico
+
+# Allow important directories
+Allow: /images/
+Allow: /css/
+Allow: /js/
