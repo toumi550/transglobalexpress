@@ -4954,33 +4954,54 @@ body {
 }
 
 /* ===== RESPONSIVE LANGUAGE SWITCHER ===== */
+/* Desktop language switcher - visible par défaut */
+.desktop-language-switcher {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* Mobile language switcher - masqué par défaut */
+.mobile-language-switcher {
+    display: none;
+}
+
+.nav-language-section {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    width: 100%;
+}
+
 @media (max-width: 768px) {
-    .language-switcher {
-        position: absolute;
-        top: 100%;
-        right: 20px;
-        background: white;
-        border-radius: 8px;
-        box-shadow: var(--shadow-lg);
-        padding: 10px;
-        margin: 0;
-        z-index: 1001;
+    /* Masquer le sélecteur desktop sur mobile */
+    .desktop-language-switcher {
+        display: none !important;
     }
     
-    .language-btn {
-        width: 100%;
+    /* Afficher le sélecteur mobile dans le menu */
+    .mobile-language-switcher {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .mobile-language-switcher .language-btn {
+        flex: 1;
+        min-width: 80px;
         justify-content: center;
         margin-bottom: 5px;
     }
     
-    .language-btn:last-child {
+    .mobile-language-switcher .language-btn:last-child {
         margin-bottom: 0;
     }
     
-    [dir="rtl"] .language-switcher {
-        right: auto;
-        left: 20px;
-        margin: 0;
+    [dir="rtl"] .desktop-language-switcher {
+        margin-left: 0;
+        margin-right: 20px;
     }
     
     /* Navigation RTL fixes */
