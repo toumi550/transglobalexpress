@@ -1200,7 +1200,7 @@ emailjs.init("nRUhL0dzQz2Ud13RO"); // Clé publique EmailJS configurée
             };
 
             // Envoyer l'email via EmailJS
-        emailjs.send('service_3nxazte', 'template_5tep3xq', templateParams)
+        emailjs.send('service_3j7m8nj', 'template_5tep3xq', templateParams)
                 .then(function(response) {
                     console.log('Email envoyé avec succès!', response.status, response.text);
                     showNotification(getTranslation('messages.form.success'), 'success');
